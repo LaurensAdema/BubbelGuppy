@@ -1,6 +1,6 @@
 ﻿namespace BubbelGuppySoftware
 {
-    partial class Form1
+    partial class Versie2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,29 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.updateTimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // updateTimer
-            // 
-            this.updateTimer.Tick += new System.EventHandler(this.updateTimer_Tick);
-            // 
-            // Form1
+            // Versie2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
+            this.Name = "Versie2";
+            this.Text = "Versie2";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Versie2_KeyDown);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Versie2_KeyUp);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Timer updateTimer;
     }
 }
-

@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace BubbelGuppySoftware
 {
-    public partial class Form1 : Form
+    public partial class Versie1 : Form
     {
         //Settings
         private const Keys vooruit = Keys.W;
@@ -27,7 +27,7 @@ namespace BubbelGuppySoftware
         //Vars
         private byte[] buffer;
 
-        public Form1()
+        public Versie1()
         {
             InitializeComponent();
             buffer = new byte[2];
